@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+	.page-content {
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.padding-block {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+		max-width: 100%;
+	}
+	.container--big {
+		max-width: 100%;
+	}
+}
+
+/* sections */
+@media screen and (min-width: 768px) {
+	.section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+/* sections //end */

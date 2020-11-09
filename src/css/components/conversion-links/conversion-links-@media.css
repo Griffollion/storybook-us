@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+	.conversion-links__inside {
+		margin-right: -25px;
+		margin-left: -25px;
+	}
+	.conversion-links__link {
+		width: 100%;
+		font-size: 16px;
+		border-bottom: 1px solid #ebebeb;
+		padding: 15px 25px;
+	}
+	.conversion-links__item {
+		border: none;
+		flex-direction: column;
+	}
+}

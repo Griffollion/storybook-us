@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+	/* terms container */
+	.terms-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 20px;
+	}
+	/* terms container //end */
+}
+
+@media screen and (min-width: 991px) {
+	.terms-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.term-block__info-inside {
+		flex-direction: row;
+	}
+	.term-block__info-item--date {
+		margin-bottom: 0;
+		margin-right: 10px;
+	}
+	.term-block__info {
+		justify-content: flex-start;
+	}
+	.term-block__info-item--views {
+		margin-right: 10px;
+	}
+}

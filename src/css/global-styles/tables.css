@@ -1,0 +1,52 @@
+table {
+	border-radius: 3px;
+	border: 1px solid #ebebeb;
+	position: relative;
+	vertical-align: top;
+}
+
+thead {
+	background: #d9f0fb;
+}
+
+tr:last-child td {
+	border-bottom: none;
+}
+
+th, td {
+	line-height: 1.4;
+	min-width: 50px;
+	box-sizing: border-box;
+}
+
+th {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 11px 10px 9px 10px;
+	border-bottom: 1px solid #b4c6d2;
+	text-align: left;
+}
+
+td {
+	padding: 14px 10px 14px 10px;
+	font-size: 14px;
+	border-bottom: 1px solid #ebebeb;
+	vertical-align: top;
+	text-align: left;
+}
+
+/* table modificators */
+.table.table--mw-150 th,
+.table.table--mw-150 td {
+	min-width: 150px;
+}
+
+/* table modificators end  */
+
+/* table container */
+.table-container {
+	position: relative;
+	overflow-x: auto;
+}
+
+/* table container //end */

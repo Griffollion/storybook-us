@@ -1,0 +1,34 @@
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	-webkit-transition: background 0.25s, color 0.25s;
+	-o-transition: background 0.25s, color 0.25s;
+	transition: background 0.25s, color 0.25s;
+	padding: 5px 30px;
+	min-height: 40px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	outline: none;
+	box-shadow: none;
+	border-width: 1px;
+	border-style: solid;
+	font-family: roboto-regular, Arial, Helvetica, sans-serif;
+}
+
+.btn.btn--yellow {
+	background: #f78f1e;
+	border-color: #f78f1e;
+}
+
+.btn.btn--yellow:hover {
+	color: #fff;
+	background: #f9ab56;
+	border-color: #f9ab56;
+}
+
