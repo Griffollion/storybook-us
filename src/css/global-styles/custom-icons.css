@@ -1,124 +1,124 @@
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-arrow-up:before {
-  content: "\e902";
+	content: "\e902";
 }
 .icon-arrow-right:before {
-  content: "\e903";
+	content: "\e903";
 }
 .icon-arrow-down:before {
-  content: "\e915";
+	content: "\e915";
 }
 .icon-arrow-left:before {
-  content: "\e905";
+	content: "\e905";
 }
 .icon-arrow-up-long:before {
-  content: "\e916";
+	content: "\e916";
 }
 .icon-arrow-right-long:before {
-  content: "\e904";
+	content: "\e904";
 }
 .icon-arrow-down-long:before {
-  content: "\e917";
+	content: "\e917";
 }
 .icon-arrow-left-long:before {
-  content: "\e918";
+	content: "\e918";
 }
 .icon-close:before {
-  content: "\e919";
+	content: "\e919";
 }
 .icon-check:before {
-  content: "\e91a";
+	content: "\e91a";
 }
 .icon-arrow-up-in-circle:before {
-  content: "\e91b";
+	content: "\e91b";
 }
 .icon-clock-fill:before {
-  content: "\e91c";
+	content: "\e91c";
 }
 .icon-clock:before {
-  content: "\e90a";
+	content: "\e90a";
 }
 .icon-check-in-circle-2:before {
-  content: "\e909";
+	content: "\e909";
 }
 .icon-check-in-circle:before {
-  content: "\e908";
+	content: "\e908";
 }
 .icon-three-dots:before {
-  content: "\e913";
+	content: "\e913";
 }
 .icon-globe:before {
-  content: "\e91d";
+	content: "\e91d";
 }
 .icon-location:before {
-  content: "\e91e";
+	content: "\e91e";
 }
 .icon-map:before {
-  content: "\e91f";
+	content: "\e91f";
 }
 .icon-warning-triangle:before {
-  content: "\e920";
+	content: "\e920";
 }
 .icon-calc:before {
-  content: "\e907";
+	content: "\e907";
 }
 .icon-messages:before {
-  content: "\e90e";
+	content: "\e90e";
 }
 .icon-services-in-circle:before {
-  content: "\e921";
+	content: "\e921";
 }
 .icon-phone:before {
-  content: "\e90f";
+	content: "\e90f";
 }
 .icon-eye:before {
-  content: "\e90b";
+	content: "\e90b";
 }
 .icon-fill-star:before {
-  content: "\e90c";
+	content: "\e90c";
 }
 .icon-star:before {
-  content: "\e90d";
+	content: "\e90d";
 }
 .icon-vector:before {
-  content: "\e922";
+	content: "\e922";
 }
 .icon-alendar:before {
-  content: "\e914";
+	content: "\e914";
 }
 .icon-question-in-circle:before {
-  content: "\e910";
+	content: "\e910";
 }
 .icon-sort-by-down:before {
-  content: "\e911";
+	content: "\e911";
 }
 .icon-sort-by-up:before {
-  content: "\e912";
+	content: "\e912";
 }
 .icon-list:before {
-  content: "\e923";
+	content: "\e923";
 }
 .icon-search:before {
-  content: "\e901";
+	content: "\e901";
 }
 .icon-two-arrows:before {
-  content: "\e906";
+	content: "\e906";
 }
 .icon-plus:before {
-  content: "\e900";
+	content: "\e900";
 }

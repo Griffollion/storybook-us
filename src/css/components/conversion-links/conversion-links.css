@@ -38,3 +38,7 @@
 .conversion-links__link:hover .conversion-links__blue-light {
 	color: #e86809;
 }
+
+.conversion-links__icon {
+	padding: 0 5px;
+}

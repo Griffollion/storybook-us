@@ -116,18 +116,13 @@
 }
 
 .conversion__arrows {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: end;
-	-ms-flex-align: end;
-	align-items: flex-end;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
+	display: inline-flex;
 	justify-content: center;
+	align-items: center;
 	padding: 10px;
-	max-height: 30px;
+	height: 60px;
 	cursor: pointer;
+	box-sizing: border-box;
 }
 
 .conversion__btn {
@@ -159,7 +154,7 @@
 
 .conversion__btn-icon {
 	color: #fff;
-	font-size: 56px;
+	font-size: 30px;
 }
 
 .conversion__links {
@@ -202,6 +197,7 @@
 
 .conversion__link-icon {
 	margin-left: 10px;
+	font-size: 0.7em;
 }
 
 .conversion__form-cell--width {
@@ -265,6 +261,13 @@
 }
 
 .conversion__two-arrows {
-	font-size: 38px;
+	font-size: 32px;
 	color: #14509c;
+}
+
+.conversion__subtext {
+	font-size: 14px;
+	color: #6b737d;
+	font-family: roboto-regular, Arial, Helvetica, sans-serif;
+	margin-bottom: 0;
 }

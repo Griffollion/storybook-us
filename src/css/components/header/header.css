@@ -41,18 +41,13 @@
 }
 
 .header__logo-back-main_nav::after {
-	content: "";
+	content: "\e905";
+	font-family: icomoon;
 	display: block;
 	left: 2px;
 	top: 40%;
-	width: 12px;
-	height: 12px;
-	border: 2px solid #14509c;
-	border-left: none;
-	border-bottom: none;
-	-webkit-transform: rotate(-135deg);
-	-ms-transform: rotate(-135deg);
-	transform: rotate(-135deg);
+	color: #14509c;
+	font-size: 16px;
 }
 
 

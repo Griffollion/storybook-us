@@ -1,3 +1,17 @@
-.seo-article p:last-child {
+.seo-article>p,
+.seo-article>ul,
+.seo-article>ol,
+.seo-article>table,
+.seo-article>img{
+	margin-bottom: 10px;
+}
+
+.seo-article>p:last-child,
+.seo-article>ul:last-child,
+.seo-article>ol:last-child,
+.seo-article>table:last-child,
+.seo-article>img:last-child{
 	margin-bottom: 0;
 }
+
+

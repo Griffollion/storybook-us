@@ -32,10 +32,6 @@
 		height: 50px;
 	}
 
-	.conversion__btn-icon {
-		font-size: 49px;
-	}
-
 	.conversion__links {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
@@ -48,10 +44,6 @@
 
 	.conversion__cell-title {
 		display: none;
-	}
-
-	.conversion__arrows {
-		padding: 5px 10px;
 	}
 
 	.conversion__links-right {
@@ -90,6 +82,13 @@
 		display: none;
 	}
 
+	.conversion__arrows {
+		padding: 10px 5px;
+		height: 50px;
+	}
+	.conversion__two-arrows {
+		font-size: 26px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -164,9 +163,10 @@
 	}
 
 	.conversion .select-currency__icon {
-		font-size: 14px;
+		font-size: 10px;
 		top: 18px;
 		right: 3px;
+		padding: 0 3px;
 	}
 
 	.conversion .select-currency.active {
@@ -302,12 +302,7 @@
 	.conversion .select-currency-item__text-top {
 		font-size: 18px;
 	}
-	.conversion__two-arrows {
-		font-size: 35px;
-	}
-	.conversion__arrows {
-		padding: 10px 5px;
-	}
+
 	.conversion__value-text h2 {
 		display: flex;
 		justify-content: center;
@@ -337,5 +332,11 @@
 
 	.select-currency.active .select-menu__scroll {
 		max-height: calc(100% -  50px);
+	}
+}
+
+@media screen and (min-width: 767px){
+	.conversion__subtext {
+		font-size: 18px;
 	}
 }

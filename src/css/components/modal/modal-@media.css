@@ -1,0 +1,16 @@
+@media screen and (min-width: 992px){
+    .modal.modal--city .modal__content{
+        width: calc(100vw - 20px);
+        max-width: 1180px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: auto;
+        max-height: 550px;
+        border-radius: 3px;
+    }
+
+    .modal.modal--top {
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+}

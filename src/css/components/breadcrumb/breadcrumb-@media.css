@@ -12,13 +12,18 @@
 		border-bottom: 1px solid #b4c6d2;
 		padding: 5px 25px 10px 25px;
 	}
+
+	/* breadcrumb-block--bottom */
 	.breadcrumb-block.breadcrumb-block--bottom {
 		display: block;
 	}
+
+	/* breadcrumb-block--bottom //end */
+	/* breadcrumb-block--bottom-v2 */
 	.breadcrumb-block.breadcrumb-block--bottom-v2 {
 		display: block;
-		border-bottom: none;
 	}
+	/* breadcrumb-block--bottom-v2 //end */
 	.breadcrumb {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;

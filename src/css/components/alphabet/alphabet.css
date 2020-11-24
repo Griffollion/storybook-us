@@ -12,3 +12,31 @@
 	color: #ccc;
 	pointer-events: none;
 }
+
+/* TODO костыль для использования с виджетом алфавита аниксмедии. Удалить когда Саша сделает рефактор*/
+.alphabet .alphabet-link-js {
+	cursor: pointer;
+	color: #14509c;
+	background: transparent;
+	text-decoration: none;
+	transition: color .3s;
+	-webkit-transition: color .3s;
+	-moz-transition: color .3s;
+	-o-transition: color .3s;
+	pointer-events: auto;
+}
+
+.alphabet .alphabet-link-js:hover {
+	color: #e86809;
+}
+
+.alphabet .alphabet-link-js.active {
+	color: #e86809;
+	pointer-events: none;
+}
+
+.alphabet>span {
+	color: #ccc;
+	pointer-events: none;
+}
+/* TODO костыль для использования с виджетом алфавита аниксмедии. Удалить когда Саша сделает рефактор //end */

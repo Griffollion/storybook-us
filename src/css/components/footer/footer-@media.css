@@ -1,90 +1,45 @@
-@media screen and (max-width: 1200px) {
-	.footer__inside {
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-
-	.footer-sites {
-		width: 100%;
-		padding-top: 20px;
-		justify-content: center;
-	}
-
-	.footer__logo {
-		width: 50%;
-	}
-
-	.footer-nav {
-		width: 50%;
-	}
-
-	.footer__logo-img {
-		max-width: 200px;
-	}
-}
-@media screen and (max-width: 991px) {
-
-
-	.footer-sites__item {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-}
-
 @media screen and (max-width: 768px) {
-	.footer__inside {
-		display: flex;
-		flex-direction: column;
-	}
-	.footer__logo,
-	.footer-nav,
-	.footer-sites {
-		width: 100%;
-		margin: 0;
-		padding: 0 25px;
-		box-sizing: border-box;
-	}
+    .footer__inside {
+        padding-top: 25px;
+        padding-bottom: 15px;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+    }
+    .footer__logo {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .footer-nav {
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 
-	.footer__logo {
-		padding-top: 10px;
-		padding-bottom: 15px;
-	}
+    .footer-nav__item {
+        margin: 0  10px 10px 0;
+    }
 
-	.footer-sites {
-		padding-top: 20px;
-	}
+    .footer-sites {
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 
-	.footer-nav,
-	.footer-sites {
-		justify-content: center;
-	}
-
-	.footer-sites__text {
-		display: none;
-	}
-
-	.footer .container--big {
-		padding-left: 0;
-		padding-right: 0;
-	}
-
-	.footer__inside {
-		padding-top: 5px;
-	}
-
-	.footer__logo--border {
-		border-bottom: 1px solid #b4c6d2;
-	}
-
-	.footer__inside {
-		padding-bottom: 20px;
-	}
-
-	.footer-nav__item {
-		margin-right: 10px;
-	}
-
-	.footer-nav__link {
-		font-size: 14px;
-	}
+    .footer-sites__item {
+        margin: 0 20px 10px 0;
+    }
 }

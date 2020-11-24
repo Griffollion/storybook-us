@@ -1,0 +1,17 @@
+@media screen and (min-width: 1200px) {
+    .bank-tile {
+        padding-right: 90px;
+    }
+    .bank-tile__logo {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .bank-tile__distance {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

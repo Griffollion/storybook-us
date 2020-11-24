@@ -1,50 +1,8 @@
-/* .tabs__nav  */
 .tabs__nav {
 	position: relative;
 	overflow-x: auto;
 	margin-bottom: 15px;
 }
-
-/* tabs__nav--bg-gray */
-.tabs__nav.tabs__nav--bg-gray {
-	background: #f4f4f4;
-}
-
-/* tabs__nav--bg-gray //end */
-
-/* tabs__nav--bold  */
-.tabs__nav.tabs__nav--bold .tabs__nav-btn {
-	font-weight: 700;
-	transition: color 0.3s ease;
-}
-
-/* tabs__nav--bold //end */
-
-
-/* tabs__nav--large */
-.tabs__nav.tabs__nav--large .tabs__nav-btn {
-	padding-bottom: 20px;
-	padding-top: 20px;
-	font-size: 16px;
-}
-/* tabs__nav--large //end */
-
-/* tabs__nav--medium */
-.tabs__nav.tabs__nav--medium .tabs__nav-btn {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-/* tabs__nav--medium //end */
-
-/* tabs__nav--no-margine */
-.tabs__nav.tabs__nav--no-margine {
-	margin: 0;
-}
-
-/* tabs__nav--no-margine //end */
-
-/* .tabs__nav //end */
 
 .tabs__nav-list {
 	display: flex;
@@ -84,21 +42,6 @@
 	width: 100%;
 	background-color: #f78f1e;
 }
-
-/* tabs--nav-white */
-.tabs.tabs--nav-white .tabs__nav-btn {
-	color: #fff;
-}
-
-.tabs.tabs--nav-white .tabs__nav-item.active .tabs__nav-btn {
-	font-weight: 700;
-}
-
-.tabs.tabs--nav-white .tabs__nav-item.active .tabs__nav-btn:before {
-	background-color: #00bee7;
-}
-
-/* tabs--nav-white //end */
 
 .tabs__container {
 	display: none;

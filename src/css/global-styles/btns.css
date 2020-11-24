@@ -19,6 +19,15 @@
 	border-width: 1px;
 	border-style: solid;
 	font-family: roboto-regular, Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+.btn.btn--big {
+	height: 50px;
+}
+
+.btn.btn--full {
+	width: 100%;
 }
 
 .btn.btn--yellow {
@@ -30,5 +39,35 @@
 	color: #fff;
 	background: #f9ab56;
 	border-color: #f9ab56;
+}
+
+.btn.btn--blue {
+	background: #14509C;
+	border-color: #14509C;
+}
+
+.btn.btn--blue:hover {
+	color: #fff;
+	background: #2B69B7;
+	border-color: #2B69B7;
+}
+
+.btn.btn--transparent-blue {
+	color: #14509C;
+	border-color: #14509C;
+	background-color: transparent;
+	border-width: 2px;
+}
+
+.btn.btn--transparent-blue:hover {
+	color: #fff;
+	background: #2B69B7;
+	border-color: #2B69B7;
+}
+
+.btn.btn--square {
+	padding: 5px;
+	width: 50px;
+	height: 40px;
 }
 

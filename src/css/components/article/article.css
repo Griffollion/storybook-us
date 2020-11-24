@@ -43,4 +43,19 @@
 	max-width: 100%;
 }
 
+.article__content ul,
+.article__content ol {
+	font-size: 14px;
+}
+
+.article__content ul li,
+.article__content ol li {
+	margin-top: 10px;
+}
+
+.article__content ul li:first-child,
+.article__content ol li:first-child {
+	margin-top: 0;
+}
+
 /* article__content //end */

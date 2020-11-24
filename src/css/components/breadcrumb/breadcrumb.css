@@ -44,7 +44,8 @@
 	position: absolute;
 	right: 0;
 	top: 0;
-	font-size: 14px;
+	font-size: 12px;
+	line-height: 16px;
 	color: #14509c;
 	transition: color 0.25s;
 	-webkit-transition: color 0.25s;
@@ -56,6 +57,16 @@
 	display: none;
 }
 
-.breadcrumb-block--bottom {
+/* breadcrumb-block--bottom */
+.breadcrumb-block.breadcrumb-block--bottom {
 	display: none;
 }
+
+/* breadcrumb-block--bottom //end */
+
+/* breadcrumb-block--bottom-v2  */
+.breadcrumb-block.breadcrumb-block--bottom-v2 {
+	border-bottom: none;
+	border-top: 1px solid #b4c6d2;
+}
+/* breadcrumb-block--bottom-v2 //end */
