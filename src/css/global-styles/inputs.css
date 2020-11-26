@@ -172,29 +172,6 @@ label {
 
 /* autoCompleteList //end */
 
-/* .input--location */
-.input.input--location [class^="icon-"], .input.input--location [class*=" icon-"] {
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	width: 40px;
-	background-color: #fff;
-	font-size: 20px;
-	cursor: pointer;
-	color: #14509c;
-	transition: color .25s;
-}
-
-.input.input--location [class^="icon-"]:hover, .input.input--location [class*=" icon-"]:hover {
-	color: #f78f1e;
-}
-
-/* .input--location //end */
-
 /* input--icon-right */
 .input.input--icon-right [class^="icon-"], .input.input--icon-right [class*=" icon-"] {
 	position: absolute;
@@ -207,15 +184,15 @@ label {
 	width: 40px;
 	background-color: #fff;
 	font-size: 20px;
-	color: #B4C6D2;
-	transition: color .25s;
 }
+
 /* input--icon-right //end */
 
 /* input--icon-left */
 .input.input--icon-left {
 	padding-left: 20px;
 }
+
 .input.input--icon-left [class^="icon-"], .input.input--icon-left [class*=" icon-"] {
 	position: absolute;
 	top: 0;
@@ -227,15 +204,22 @@ label {
 	width: 40px;
 	background-color: #fff;
 	font-size: 20px;
-	color: #B4C6D2;
-	transition: color .25s;
 }
+
 /* input--icon-left //end */
 
 /* input--icon-blue */
-.input.input--icon-blue [class^="icon-"]{
+.input.input--icon-blue [class^="icon-"] {
 	color: #14509c;
 }
+
 /* input--icon-blue //end */
+
+/* input--icon-dark-blue */
+.input.input--icon-dark-blue [class^="icon-"] {
+	color: #b4c6d2;
+}
+
+/* input--icon-dark-blue //end */
 
 /* Инпуты в обертке для большей вариативности //end */

@@ -1,23 +1,28 @@
 .bg-light-blue {
-	background: #F5FBFD;
+	background: #f5fbfd;
 }
+
 .bg-white {
 	background-color: #fff;
 }
 
 .bg-blue {
-	background-color: #D9F0FB;
+	background-color: #d9f0fb;
+}
+
+.bg-light-gray {
+	background-color: #ebebeb;
 }
 
 .error {
-	color: #F71E1E;
+	color: #f71e1e;
 }
 
 .success {
-	color: #5BBB10;
+	color: #5bbb10;
 }
 
 .sublime {
-	color: #6B737D;
+	color: #6b737d;
 }
 
