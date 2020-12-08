@@ -1,0 +1,23 @@
+.container-icon {
+	position: relative;
+	padding: 20px 15px 15px 55px;
+	background: #f5fbfd;
+	border-radius: 3px;
+}
+
+.container-icon p:last-child {
+	margin-bottom: 0;
+}
+
+.container-icon__icon {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.container-icon__icon img {
+	width: 100%;
+	height: auto;
+}
