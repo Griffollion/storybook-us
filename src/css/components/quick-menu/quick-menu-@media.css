@@ -6,7 +6,13 @@
 		color: #f78f1e;
 	}
 	.quick-menu__image {
-		width: 40px;
+		min-width: 35px;
+		height: 40px;
+	}
+
+	.quick-menu__image img {
+		height: 40px;
+		min-width: 35px;
 	}
 	.quick-menu__top {
 		display: flex;
