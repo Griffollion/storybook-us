@@ -1,0 +1,7 @@
+.label.label--v-hidden {
+	opacity: 0;
+	pointer-events: none;
+	height: 0;
+	z-index: -1;
+	position: absolute;
+}
