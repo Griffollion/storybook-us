@@ -6,12 +6,16 @@
 
   .sb-show-main.sb-main-centered {
     margin: 0;
-    padding: 1rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
+  }
+
+  .sb-show-main.sb-main-centered #root {
     box-sizing: border-box;
+    margin: auto;
+    padding: 1rem;
+    max-height: 100%; /* Hack for centering correctly in IE11 */
   }
 
   /* Vertical centering fix for IE11 */
@@ -99,7 +103,27 @@
   } catch (e) {
     // eslint-disable-next-line no-console
     console.warn('unable to connect to top frame for connecting dev tools');
-  }</script><style>@font-face {
+  }
+
+  window.onerror = function onerror(message, source, line, column, err) {
+    if (window.CONFIG_TYPE !== 'DEVELOPMENT') return;
+    // eslint-disable-next-line no-var, vars-on-top
+    var xhr = new window.XMLHttpRequest();
+    xhr.open('POST', '/runtime-error');
+    xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+    xhr.send(
+      JSON.stringify({
+        /* eslint-disable object-shorthand */
+        message: message,
+        source: source,
+        line: line,
+        column: column,
+        error: err && { message: err.message, name: err.name, stack: err.stack },
+        origin: 'preview',
+        /* eslint-enable object-shorthand */
+      })
+    );
+  };</script><style>@font-face {
     font-family: roboto-regular;
     font-display: swap;
     font-weight: normal;
@@ -134,11 +158,11 @@
     src: url("./src/fonts/icomoon.woff2?y93jt4") format("woff2"),
       url("./src/fonts/icomoon.woff?y93jt4") format("woff"),
       url("./src/fonts/icomoon.ttf?y93jt4") format("truetype");
-  }</style><link rel="stylesheet" href="./src/css/reset.css"><link rel="stylesheet" href="./src/css/global-styles/typography.css"><link rel="stylesheet" href="./src/css/global-styles/typography-@media.css"><link rel="stylesheet" href="./src/css/global-styles/common.css"><link rel="stylesheet" href="./src/css/global-styles/modificators.css"><link rel="stylesheet" href="./src/css/global-styles/custom-icons.css"><link rel="stylesheet" href="./src/css/global-styles/btns.css"><link rel="stylesheet" href="./src/css/global-styles/borders.css"><link rel="stylesheet" href="./src/css/global-styles/colors.css"><link rel="stylesheet" href="./src/css/global-styles/containers.css"><link rel="stylesheet" href="./src/css/global-styles/containers-@media.css"><link rel="stylesheet" href="./src/css/global-styles/hiddens.css"><link rel="stylesheet" href="./src/css/global-styles/hiddens-@media.css"><link rel="stylesheet" href="./src/css/global-styles/inputs.css"><link rel="stylesheet" href="./src/css/global-styles/links.css"><link rel="stylesheet" href="./src/css/global-styles/lists.css"><link rel="stylesheet" href="./src/css/global-styles/seo.css"><link rel="stylesheet" href="./src/css/global-styles/tables.css"><link rel="stylesheet" href="./src/css/global-styles/tables-@media.css"><link rel="stylesheet" href="./src/css/global-styles/layouts.css"><link rel="stylesheet" href="./src/css/global-styles/layouts-@meida.css"><link rel="stylesheet" href="./src/css/components/close/close.css"><link rel="stylesheet" href="./src/css/components/header-search/header-search.css"><link rel="stylesheet" href="./src/css/components/header-search/header-search-@media.css"><link rel="stylesheet" href="./src/css/components/accordeon-custom/accordeon-custom.css"><link rel="stylesheet" href="./src/css/components/accordeon-custom/accordeon-custom-@media.css"><link rel="stylesheet" href="./src/css/components/quick-menu/quick-menu.css"><link rel="stylesheet" href="./src/css/components/quick-menu/quick-menu-@media.css"><link rel="stylesheet" href="./src/css/components/tabs/tabs.css"><link rel="stylesheet" href="./src/css/components/tabs/tabs-@media.css"><link rel="stylesheet" href="./src/css/components/term-block/term-block.css"><link rel="stylesheet" href="./src/css/components/term-block/term-block-@media.css"><link rel="stylesheet" href="./src/storybook/css/iconList.css"><link rel="stylesheet" href="./src/storybook/css/svg-icons-list.css"><link rel="stylesheet" href="./src/storybook/css/components/articles-list/articles-list.css"><link rel="stylesheet" href="./src/storybook/css/components/filter/filter.css"><script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script><style>#root[hidden],
+  }</style><link rel="stylesheet" href="./src/css/reset.css"><link rel="stylesheet" href="./src/css/global-styles/typography.css"><link rel="stylesheet" href="./src/css/global-styles/typography-@media.css"><link rel="stylesheet" href="./src/css/global-styles/common.css"><link rel="stylesheet" href="./src/css/global-styles/modificators.css"><link rel="stylesheet" href="./src/css/global-styles/custom-icons.css"><link rel="stylesheet" href="./src/css/global-styles/btns.css"><link rel="stylesheet" href="./src/css/global-styles/borders.css"><link rel="stylesheet" href="./src/css/global-styles/colors.css"><link rel="stylesheet" href="./src/css/global-styles/containers.css"><link rel="stylesheet" href="./src/css/global-styles/containers-@media.css"><link rel="stylesheet" href="./src/css/global-styles/hiddens.css"><link rel="stylesheet" href="./src/css/global-styles/hiddens-@media.css"><link rel="stylesheet" href="./src/css/global-styles/inputs.css"><link rel="stylesheet" href="./src/css/global-styles/links.css"><link rel="stylesheet" href="./src/css/global-styles/lists.css"><link rel="stylesheet" href="./src/css/global-styles/seo.css"><link rel="stylesheet" href="./src/css/global-styles/tables.css"><link rel="stylesheet" href="./src/css/global-styles/tables-@media.css"><link rel="stylesheet" href="./src/css/global-styles/layouts.css"><link rel="stylesheet" href="./src/css/global-styles/layouts-@meida.css"><link rel="stylesheet" href="./src/storybook/css/iconList.css"><link rel="stylesheet" href="./src/storybook/css/svg-icons-list.css"><link rel="stylesheet" href="./src/storybook/css/components/articles-list/articles-list.css"><link rel="stylesheet" href="./src/storybook/css/components/filter/filter.css"><style>#root[hidden],
       #docs-root[hidden] {
         display: none !important;
       }</style></head><body><div class="sb-nopreview sb-wrapper"><div class="sb-nopreview_main"><h1 class="sb-nopreview_heading sb-heading">No Preview</h1><p>Sorry, but you either have no stories or none are selected somehow.</p><ul><li>Please check the Storybook config.</li><li>Try reloading the page.</li></ul><p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p></div></div><div class="sb-errordisplay sb-wrapper"><pre id="error-message" class="sb-heading"></pre><pre class="sb-errordisplay_code"><code id="error-stack"></code></pre></div><div id="root"></div><div id="docs-root"></div><script>window['LOGLEVEL'] = "info";
             
         
             
-              window['FRAMEWORK_OPTIONS'] = {};</script><script src="runtime~main.238a2547615e5e8a443f.bundle.js"></script><script src="vendors~main.238a2547615e5e8a443f.bundle.js"></script><script src="main.238a2547615e5e8a443f.bundle.js"></script></body></html>
+              window['FRAMEWORK_OPTIONS'] = {};</script><script src="runtime~main.34ce68eac548926f4fcf.bundle.js"></script><script src="vendors~main.34ce68eac548926f4fcf.bundle.js"></script><script src="main.34ce68eac548926f4fcf.bundle.js"></script></body></html>

@@ -1,10 +1,9 @@
 @media screen and (min-width: 768px) {
 	.terms-search__container {
 		display: grid;
-		grid-template-areas: "search search  search search search  search info"
-		"examples examples examples examples examples examples examples"
-		"alphabet alphabet alphabet alphabet alphabet alphabet alphabet";
+		grid-template-areas: "search info" "examples examples" "alphabet alphabet";
 		grid-column-gap: 20px;
+		grid-template-columns: 1fr fit-content(100%);
 	}
 
 	.terms-search__search {

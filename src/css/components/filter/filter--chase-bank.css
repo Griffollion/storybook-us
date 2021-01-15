@@ -1,8 +1,7 @@
 .filter.filter--chase-bank .filter__grid {
 	grid-template-columns: 1fr min-content;
 	grid-template-rows: auto;
-	grid-template-areas: "select-bank select-bank"
-	"select-city btn";
+	grid-template-areas: "select-bank select-bank" "select-city btn";
 	grid-gap: 20px 15px;
 }
 

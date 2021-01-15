@@ -80,10 +80,10 @@ span.minimal-tabs__btn {
 	transition: -webkit-transform .25s ease;
 	-o-transition: transform .25s ease;
 	transition: transform .25s ease, -webkit-transform .25s ease;
-	content: "\e902";
+	content: "\e915";
 	font-family: "icomoon";
-	margin-left: 2px;
-	font-size: 15px;
+	margin-left: 5px;
+	font-size: 0.7em;
 	display: inline-block;
 }
 

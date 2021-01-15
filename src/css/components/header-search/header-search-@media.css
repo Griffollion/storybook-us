@@ -18,9 +18,9 @@
 		border: none;
 		border-bottom: 1px solid #fff;
 		color: #14509c;
-		-webkit-transition:  width 0.25s, padding 0.25s, -webkit-box-shadow 0.25s;
-		-o-transition:  width 0.25s, padding 0.25s, box-shadow 0.25s;
-		transition:  width 0.25s, padding 0.25s, box-shadow 0.25s, -webkit-box-shadow 0.25s;
+		-webkit-transition: width 0.25s, padding 0.25s, -webkit-box-shadow 0.25s;
+		-o-transition: width 0.25s, padding 0.25s, box-shadow 0.25s;
+		transition: width 0.25s, padding 0.25s, box-shadow 0.25s, -webkit-box-shadow 0.25s;
 	}
 
 	.header-search__input {

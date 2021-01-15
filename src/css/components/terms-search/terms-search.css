@@ -14,7 +14,7 @@
 	justify-content: space-between;
 	align-items: center;
 	font-size: 14px;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .terms-search__info-item {
@@ -24,12 +24,12 @@
 	flex-grow: 2;
 }
 
-.terms-search__info-item [data-js="toggle-item"] i{
+.terms-search__info-item [data-js="toggle-item"] i {
 	transform: rotate(180deg);
 	transition: transform .25s;
 }
 
-.terms-search__info-item [data-js="toggle-item"].toggled i{
+.terms-search__info-item [data-js="toggle-item"].toggled i {
 	transform: rotate(0);
 }
 

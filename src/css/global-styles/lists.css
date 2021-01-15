@@ -181,26 +181,26 @@ ol li:last-child {
 /* list--num-start-* //end */
 
 /* list--before-orange */
-.list.list--before-orange.list--check>li:before,
-.list.list--before-orange.list--num>li:before,
-.list.list--before-orange.list--content-num>li:before {
+.list.list--before-orange.list--check > li:before,
+.list.list--before-orange.list--num > li:before,
+.list.list--before-orange.list--content-num > li:before {
 	color: #f78f1e;
 }
 
-.list.list--before-orange.list--dotted>li:before {
+.list.list--before-orange.list--dotted > li:before {
 	background-color: #f78f1e;
 }
 
 /* list--before-orange //end */
 
 /* list--before-blue */
-.list.list--before-blue.list--check>li:before,
-.list.list--before-blue.list--num>li::before,
-.list.list--before-blue.list--content-num>li:before {
+.list.list--before-blue.list--check > li:before,
+.list.list--before-blue.list--num > li::before,
+.list.list--before-blue.list--content-num > li:before {
 	color: #14509c;
 }
 
-.list.list--before-blue.list--dotted>li:before {
+.list.list--before-blue.list--dotted > li:before {
 	background-color: #14509c;
 }
 

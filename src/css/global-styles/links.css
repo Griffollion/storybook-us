@@ -25,6 +25,10 @@ a {
 	-o-transition: color .3s;
 }
 
+.fake-link.fake-link--inline-block {
+	display: inline-block;
+}
+
 .fake-link:hover {
 	color: #e86809;
 }

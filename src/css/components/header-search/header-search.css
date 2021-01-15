@@ -51,7 +51,7 @@
 	position: relative;
 }
 
-.header-search__form>label {
+.header-search__form > label {
 	position: absolute;
 	left: 0;
 	top: 0;

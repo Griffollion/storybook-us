@@ -20,6 +20,10 @@
 	transition: background-color 0.25s;
 }
 
+.main_nav.main_nav--static.fixed {
+	position: static;
+}
+
 .main_nav.fixed .main_nav__link:not(.main_nav__link-credit) {
 	color: #14509c;
 }
@@ -147,7 +151,7 @@
 	right: 33px;
 	background-color: #14509c;
 	border: none;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #fff;
 	color: #fff;
 	transition: width 0.25s, box-shadow 0.25s, padding 0.25s;
 }

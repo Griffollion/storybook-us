@@ -22,7 +22,7 @@
 
 .modal-city__search .form-search:after {
 	content: "\e901";
-	font-family: 'icomoon';
+	font-family: "icomoon";
 	font-size: 1em;
 	position: absolute;
 	right: 15px;

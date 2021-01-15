@@ -81,19 +81,19 @@
 	filter: brightness(.8)
 }
 
-.social-networks__item.social-networks__item--tg:before {
+.social-networks__item.social-networks__item--telegram:before {
 	content: "\e929"
 }
 
-.social-networks__item.social-networks__item--tg:after {
+.social-networks__item.social-networks__item--telegram:after {
 	background-color: #4faef7
 }
 
-.social-networks__item.social-networks__item--fb:before {
+.social-networks__item.social-networks__item--facebook:before {
 	content: "\e924"
 }
 
-.social-networks__item.social-networks__item--fb:after {
+.social-networks__item.social-networks__item--facebook:after {
 	background-color: #3b5998
 }
 
@@ -131,11 +131,11 @@
 	background-color: #ff851b;
 }
 
-.social-networks__item.social-networks__item--em:before {
+.social-networks__item.social-networks__item--email:before {
 	content: "\e927";
 }
 
-.social-networks__item.social-networks__item--em:after {
+.social-networks__item.social-networks__item--email:after {
 	background-color: #f78f1e;
 }
 

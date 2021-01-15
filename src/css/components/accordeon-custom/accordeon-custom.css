@@ -22,7 +22,7 @@
 }
 
 .accordeon-custom__item:before {
-	content: '';
+	content: "";
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -32,7 +32,7 @@
 }
 
 .accordeon-custom__item:last-child:after {
-	content: '';
+	content: "";
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -52,7 +52,7 @@
 }
 
 .accordeon-custom__item-title:before {
-	content: '';
+	content: "";
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -61,7 +61,7 @@
 }
 
 .accordeon-custom__item-title:after {
-	content: '\e900';
+	content: "\e900";
 	font-family: icomoon;
 	pointer-events: none;
 	color: #b4c6d2;
@@ -104,7 +104,6 @@
 	margin: 0;
 	font-size: inherit;
 }
-
 
 .accordeon-custom__item-text em,
 .accordeon-custom__item-text a,

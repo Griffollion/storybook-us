@@ -1,6 +1,7 @@
 .learn-more {
 	display: flex;
 }
+
 .learn-more__img {
 	width: 30px;
 	min-height: 30px;

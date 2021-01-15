@@ -25,8 +25,17 @@ p {
 	margin-bottom: 20px;
 }
 
+p:last-child {
+	margin-bottom: 0;
+}
+
 i {
 	font-style: italic;
+}
+
+figcaption {
+	font-size: 12px;
+	text-align: center;
 }
 
 

@@ -16,17 +16,15 @@
 }
 
 .container {
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 100%;
 	width: 100%;
-	max-width: 1010px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: 0 auto;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-.container--big {
-	max-width: 1210px;
+.container.container--big {
+	max-width: 100%;
 }
 
 .page-content {
@@ -43,4 +41,23 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+.section.section--small {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.section.section--large {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.section.section--indent-bottom {
+	padding-top: 0;
+}
+
+.section.section--indent-top {
+	padding-bottom: 0;
+}
+
 /* sections //end */

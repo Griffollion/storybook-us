@@ -93,7 +93,7 @@
 
 @media screen and (max-width: 768px) {
 	.conversion__inside {
-		padding: 25px;
+		padding: 25px 10px;
 	}
 
 	.conversion__form-cell--width {
@@ -322,7 +322,7 @@
 		height: calc(100% - 61px);
 		top: 61px;
 		left: 0;
-		transform: translate(0,0);
+		transform: translate(0, 0);
 	}
 
 	.select-currency.active .select-menu,
@@ -331,11 +331,11 @@
 	}
 
 	.select-currency.active .select-menu__scroll {
-		max-height: calc(100% -  50px);
+		max-height: calc(100% - 50px);
 	}
 }
 
-@media screen and (min-width: 767px){
+@media screen and (min-width: 767px) {
 	.conversion__subtext {
 		font-size: 18px;
 	}

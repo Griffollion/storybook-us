@@ -1,26 +1,3 @@
-/* filter--big */
-.filter.filter--big .input {
-	height: 50px;
-}
-.filter.filter--big .input input {
-	height: 100%;
-}
-
-.filter.filter--big .btn.btn--square {
-	height: 50px;
-	width: 60px;
-}
-
-.filter.filter--big .dropdown-search-container__select {
-	height: 50px;
-}
-
-.filter.filter--big .dropdown-search__autocompleter input {
-
-}
-
-/* filter--big //end */
-
 .filter__grid {
 	display: grid;
 }

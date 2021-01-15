@@ -5,10 +5,6 @@
 	.quick-menu__text:hover {
 		color: #f78f1e;
 	}
-	.quick-menu__image {
-		min-width: 35px;
-		height: 40px;
-	}
 
 	.quick-menu__image img {
 		height: 40px;
@@ -23,6 +19,12 @@
 		line-height: 19px;
 		text-align: center;
 	}
+
+	/* quick-menu--v2 */
+	.quick-menu.quick-menu--v2 .quick-menu__image img {
+		height: 50px;
+	}
+	/* quick-menu--v2 //end */
 }
 
 @media screen and (min-width: 991px) {
@@ -37,4 +39,19 @@
 		padding-top: 0;
 		text-align: left;
 	}
+
+	/* quick-menu--v2 */
+	.quick-menu.quick-menu--v2 .quick-menu__item {
+		flex-direction: column;
+	}
+
+	.quick-menu.quick-menu--v2 .quick-menu__image img {
+		height: 60px;
+	}
+
+	.quick-menu.quick-menu--v2 .quick-menu__text {
+		padding-left: 0;
+		padding-top: 10px;
+	}
+	/* quick-menu--v2 //end */
 }

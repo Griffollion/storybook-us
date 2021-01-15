@@ -1,8 +1,27 @@
 .alphabet {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 20px);
-	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, 23px);
+	grid-gap: 10px 7px;
 }
+
+/* alphabet--flex */
+.alphabet.alphabet--flex {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: unset;
+
+}
+
+.alphabet.alphabet--flex .alphabet-link-js {
+	padding: 0 5px 0 0;
+	margin: 0 5px 10px 0;
+}
+
+.alphabet.alphabet--flex .alphabet-link-js:first-child {
+	padding-left: 0;
+}
+
+/* alphabet--flex //end */
 
 .alphabet__item.active {
 	color: #e86809;
@@ -35,8 +54,9 @@
 	pointer-events: none;
 }
 
-.alphabet>span {
+.alphabet > span {
 	color: #ccc;
 	pointer-events: none;
 }
+
 /* TODO костыль для использования с виджетом алфавита аниксмедии. Удалить когда Саша сделает рефактор //end */
