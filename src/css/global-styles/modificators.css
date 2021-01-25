@@ -1,3 +1,19 @@
+.mt-adaptive {
+	margin-top: 0.8em;
+}
+
+.mr-adaptive {
+	margin-right: 0.8em;
+}
+
+.mb-adaptive {
+	margin-bottom: 0.8em;
+}
+
+.ml-adaptive {
+	margin-left: 0.8em;
+}
+
 .mt-5 {
 	margin-top: 5px;
 }
@@ -124,6 +140,22 @@
 
 .ml-40 {
 	margin-left: 40px;
+}
+
+.pt-adaptive {
+	padding-top: 0.8em;
+}
+
+.pr-adaptive {
+	padding-right: 0.8em;
+}
+
+.pb-adaptive {
+	padding-bottom: 0.8em;
+}
+
+.pl-adaptive {
+	padding-left: 0.8em;
 }
 
 .pt-5 {
@@ -255,6 +287,10 @@
 }
 
 /* font sizes */
+.fs-1em {
+	font-size: 1em;
+}
+
 .fs-8 {
 	font-size: 8px;
 }
@@ -320,3 +356,11 @@
 }
 
 /* font sizes //end */
+
+.pos-sticky {
+	position: sticky;
+}
+
+.pos-sticky.pos-sticky--top-0 {
+	top: 0;
+}

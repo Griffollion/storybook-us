@@ -119,3 +119,47 @@
 
 /* quick-menu--scrollable-x //end */
 
+/* quick-menu--col */
+.quick-menu.quick-menu--col-1 .quick-menu__inside {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.quick-menu.quick-menu--col-2 .quick-menu__inside {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.quick-menu.quick-menu--col-3 .quick-menu__inside {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.quick-menu.quick-menu--col-4 .quick-menu__inside {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.quick-menu.quick-menu--col-5 .quick-menu__inside {
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.quick-menu.quick-menu--col-6 .quick-menu__inside {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.quick-menu.quick-menu--col-7 .quick-menu__inside {
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.quick-menu.quick-menu--col-8 .quick-menu__inside {
+	grid-template-columns: repeat(8, 1fr);
+}
+
+.quick-menu.quick-menu--col-9 .quick-menu__inside {
+	grid-template-columns: repeat(9, 1fr);
+}
+
+.quick-menu.quick-menu--col-10 .quick-menu__inside {
+	grid-template-columns: repeat(10, 1fr);
+}
+
+/* quick-menu--col //end */
+
+

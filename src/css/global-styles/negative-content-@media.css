@@ -4,11 +4,13 @@
 	}
 
 	.negative-content.negative-content--big .negative-content__content {
-		padding: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
-	.negative-content.negative-content--big.negative-content.negative-content--upper {
-		padding: 0 30px;
+	.negative-content.negative-content--big.negative-content.negative-content--upper .negative-content__content {
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 
 	.negative-content__content {

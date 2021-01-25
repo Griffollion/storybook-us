@@ -14,6 +14,10 @@
 	background-color: #ebebeb;
 }
 
+.bg-lavender {
+	background-color: #ebf6fb;
+}
+
 .error {
 	color: #f71e1e;
 }
@@ -27,4 +31,10 @@
 	color: #6b737d;
 }
 
+.dark-blue {
+	color: #b4c6d2;
+}
 
+.lavender {
+	color: #ebf6fb;
+}
