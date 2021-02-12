@@ -31,6 +31,17 @@ ol li:last-child {
 	padding-left: 0;
 }
 
+/* list--m-medium */
+.list.list--m-medium > li {
+	margin-top: 15px;
+}
+
+.list.list--m-medium > li:first-child {
+	margin-top: 0;
+}
+
+/* list--m-medium //end */
+
 /* list--dotted */
 .list.list--dotted > li {
 	padding-left: 16px;

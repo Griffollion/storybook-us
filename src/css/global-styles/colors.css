@@ -18,6 +18,14 @@
 	background-color: #ebf6fb;
 }
 
+.bg-green-blue {
+	background-color: #14509c;
+}
+
+.green-blue {
+	color: #14509c;
+}
+
 .error {
 	color: #f71e1e;
 }
